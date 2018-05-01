@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.on('ready', () => {
     client.user.setUsername('GuinMint');
-    console.log('What's good?');
+    console.log("What's good?");
     client.user.setGame('m!say')
 });
 
