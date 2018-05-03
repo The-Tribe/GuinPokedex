@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
-// I am drinking water.
 
 client.on('ready', () => {
     client.user.setUsername('GuinMint');
