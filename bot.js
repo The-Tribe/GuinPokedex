@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.on('ready', () => {
     client.user.setUsername('GuinPokédex');
-    console.log("What's good?");
+    console.log("Hi.");
     client.user.setGame('p!meltan')
 });
 
