@@ -1293,9 +1293,15 @@ client.on('message', async message => {
 	if (command === 'meganium') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon)')
 	}
+	if (command === 'melmetal') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Melmetal_(Pok%C3%A9mon)')
+	}
 	if (command === 'meloetta') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)')
 	}
+	if (command === 'meltan') {
+	message.reply{'https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)')
+        }
 	if (command === 'meowstic') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Meowstic_(Pok%C3%A9mon)')
 	}
