@@ -5,7 +5,7 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinPokédex');
     console.log("What's good?");
-    client.user.setGame('p!bulbasaur')
+    client.user.setGame('p!meltan')
 });
 
 client.on('message', async message => {
