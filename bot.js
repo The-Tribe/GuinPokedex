@@ -5,7 +5,6 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinPokédex');
     console.log("Hi.");
-    client.user.setGame('p!meltan')
 });
 
 client.on('message', async message => {
@@ -1300,7 +1299,7 @@ client.on('message', async message => {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)')
 	}
 	if (command === 'meltan') {
-	message.reply{'https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)')
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)')
         }
 	if (command === 'meowstic') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Meowstic_(Pok%C3%A9mon)')
@@ -2442,6 +2441,14 @@ client.on('message', async message => {
 	if (command === 'zygarde') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)')
 	}
+	if (command === 'grookey') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Grookey_(Pok%C3%A9mon)')
+	}
+	if (command === 'scorbunny') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Scorbunny_(Pok%C3%A9mon)')
+	}
+	if (command === 'sobble') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)')
      });
 	
 client.login(process.argv[2])
