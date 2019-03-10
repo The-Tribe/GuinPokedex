@@ -2449,6 +2449,7 @@ client.on('message', async message => {
 	}
 	if (command === 'sobble') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)')
+	}
      });
 	
 client.login(process.argv[2])
