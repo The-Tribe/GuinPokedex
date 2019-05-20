@@ -10,7 +10,7 @@ client.on('ready', () => {
 client.on('message', async message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-    
+
     if (command === 'abomasnow') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)')
     }
@@ -25,7 +25,7 @@ client.on('message', async message => {
     }
     if (command === 'aegislash') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon)')
-    }  
+    }
     if (command === 'aerodactyl') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)')
     }
@@ -2451,5 +2451,5 @@ client.on('message', async message => {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)')
 	}
      });
-	
-client.login(process.argv[2])
+
+client.login(process.env.GUINPOKEDEX_TOKEN)
